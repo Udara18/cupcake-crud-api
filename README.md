@@ -63,11 +63,11 @@ Update the details of an existing cupcake.
 Request Body:
 json
 Copy code
-```{```
- ``` "item_name": "Updated Cupcake Name",```
- ``` "flavor": "updated flavor",```
- ``` "price": 150.00```
-```} ```
+{
+  "item_name": "Updated Cupcake Name",
+  "flavor": "updated flavor",
+  "price": 150.00
+} 
 
 - DELETE /api/delete-cupcake/:cakeID
 Remove a cupcake from the inventory.
