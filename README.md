@@ -52,7 +52,7 @@ Request Body:
 json
 Copy code
 
-```{
+{
   "item_name": "Strawberry Delight",
   "flavor": "strawberry",
   "price": 120.00
@@ -63,16 +63,16 @@ Update the details of an existing cupcake.
 Request Body:
 json
 Copy code
-{
-  "item_name": "Updated Cupcake Name",
-  "flavor": "updated flavor",
-  "price": 150.00
-}...
+```{```
+ ``` "item_name": "Updated Cupcake Name",```
+ ``` "flavor": "updated flavor",```
+ ``` "price": 150.00```
+```} ```
 
 - DELETE /api/delete-cupcake/:cakeID
 Remove a cupcake from the inventory.
 
-Customers
+# Customers
 - GET /api/all-customers
 Retrieve all customer data.
 
@@ -82,11 +82,11 @@ Add a new customer.
 Request Body:
 json
 Copy code
-{
-  "name": "John Doe",
-  "contact": "0761234567",
-  "gender": "male"
-}
+```{```
+ ``` "name": "John Doe",```
+ ``` "contact": "0761234567",```
+  ```"gender": "male"```
+```}```
 
 # Orders
 
