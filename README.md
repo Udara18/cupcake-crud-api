@@ -1,6 +1,6 @@
 # Cupcake Ordering API
 - Introduction
-This is a simple Node.js API for managing a cupcake shop's inventory, customer data, and orders. The API is built using Express.js and provides endpoints for managing cupcakes, customers, and orders. The data is stored in temporary arrays, simulating a database.
+<p>This is a simple Node.js API for managing a cupcake shop's inventory, customer data, and orders. The API is built using Express.js and provides endpoints for managing cupcakes, customers, and orders. The data is stored in temporary arrays, simulating a database.</p>
 
 - Table of Contents
 Introduction
