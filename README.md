@@ -17,22 +17,18 @@ To install and run this project locally, follow these steps:
 
 - Clone this repository:
 ```bash
-Copy code
 git clone https://github.com/Udara18/cupcake-crud-api.git
 ```
 - Navigate into the project directory:
 ```bash
-Copy code
 cd cupcake-ordering-api
 ```
 - Install the required dependencies:
 ```bash
-Copy code
 npm install
 ```
 - Start the server:
 ```bash
-Copy code
 npm start
 ```
 - Usage
@@ -50,8 +46,6 @@ Add a new cupcake to the inventory.
 
 Request Body:
 json
-Copy code
-
 {
   "item_name": "Strawberry Delight",
   "flavor": "strawberry",
