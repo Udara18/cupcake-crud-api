@@ -44,24 +44,26 @@ Retrieve all cupcakes in the inventory.
 - POST /api/add-new-cupcake
 Add a new cupcake to the inventory.
 
-Request Body:
-json
+  - Request Body:
+``` json
 {
   "item_name": "Strawberry Delight",
   "flavor": "strawberry",
   "price": 120.00
 }
+```
+
 - POST /api/update-cupcake/:cakeID
 Update the details of an existing cupcake.
 
-Request Body:
-json
-Copy code
+  - Request Body:
+```json
 {
   "item_name": "Updated Cupcake Name",
   "flavor": "updated flavor",
   "price": 150.00
-} 
+}
+```
 
 - DELETE /api/delete-cupcake/:cakeID
 Remove a cupcake from the inventory.
@@ -73,29 +75,29 @@ Retrieve all customer data.
 - POST /api/add-new-customer
 Add a new customer.
 
-Request Body:
-json
-Copy code
-```{```
- ``` "name": "John Doe",```
- ``` "contact": "0761234567",```
-  ```"gender": "male"```
-```}```
+  - Request Body:
+```json
+{
+  "name": "John Doe",
+  "contact": "0761234567",
+  "gender": "male"
+}
+```
 
 # Orders
 
 POST /api/create-new-order
 Create a new order.
 
-Request Body:
-json
-Copy code
+  - Request Body:
+```json
 {
   "customer_id": 1,
   "cake_id": 2,
   "date": "2024-08-10",
   "quentity": 3
 }
+```
 - GET /api/all-orders-for-selected-customer/:customerID
 Retrieve all orders for a specific customer.
 
